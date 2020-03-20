@@ -1,2 +1,2 @@
-variable "secret_key" {}
-variable "access_key" {}
+secret_key = {}
+access_key = {}
