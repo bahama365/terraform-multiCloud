@@ -1,6 +1,7 @@
 provider "aws" {
- region         = "eu-west-1"
- profile        = "lbg"
+ region     = "eu-west-1"
+ access_key = var.access_key
+ secret_key = var.secret_key
 }
 
 ########## VPC
@@ -13,4 +14,3 @@ resource "aws_vpc" "terraform" {
         Name = "terraform"
  }
 }
-
