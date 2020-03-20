@@ -17,7 +17,7 @@ resource "aws_route53_record" "alias" {
                 evaluate_target_health = true
         }
         weighted_routing_policy {
-        weight = 5
+        weight = 0
         }
 }
 
